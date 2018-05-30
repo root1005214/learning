@@ -1,9 +1,9 @@
-package com.zhenghao.learning.stream;
+package com.zhenghao.platform.stream;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-import com.zhenghao.learning.LearningApplicationTests;
+import com.zhenghao.platform.LearningApplicationTests;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertTrue;
@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
 /**
- * PROGRAM:     learning
+ * PROGRAM:     platform
  * Author:      Mr.jiangzhenghao
  * Date:        2018-05-26 15:18
  * Desc:        Optional 用法

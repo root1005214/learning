@@ -4,11 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.zhenghao</groupId>
-  <artifactId>learning</artifactId>
+  <artifactId>platform</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>learning</name>
+  <name>platform</name>
   <description>Java Project</description>
 
   <parent>
@@ -66,20 +66,6 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
-    </dependency>
-
-    <!--sharding-jdbc-->
-    <dependency>
-      <groupId>io.shardingsphere</groupId>
-      <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
-      <version>${sharding-sphere.version}</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
-    <dependency>
-      <groupId>com.zaxxer</groupId>
-      <artifactId>HikariCP</artifactId>
-      <version>${hikariCP.version}</version>
     </dependency>
 
     <dependency>
